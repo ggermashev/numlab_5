@@ -101,12 +101,12 @@ plt.legend()
 plt.show()
 
 plt.loglog(steps, errors_runge_kutta, label='runge-kutta errors')
-plt.loglog(steps, y_3x, label='4x')
+plt.loglog(steps, y_4x, label='4x')
 plt.legend()
 plt.show()
 
 plt.loglog(steps, errors_adams, label='adams errors')
-plt.loglog(steps, y_4x, label='3x')
+plt.loglog(steps, y_3x, label='3x')
 plt.legend()
 plt.show()
 
